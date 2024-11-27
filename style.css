@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.navbar {
+    background-color: #0033cc;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar .contact {
+    background-color: #ffcc00;
+    color: #0033cc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0033cc;
+    padding: 20px;
+}
+.hero img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+.welcome {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    
+}
+.welcome h2 {
+    color: #0033cc;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(9, 202, 240);
+
+}
+.icon {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+}
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+.icon p {
+    margin: 10px 0 0;
+    color: #0033cc;
+}
+.articles {
+    padding: 20px;
+    background-color: rgb(126, 127, 133);
+}
+.articles h2 {
+    color: #0033cc;
+    text-align: center;
+}
+.articles .article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+    justify-content: space-around;
+    
+}
+.article {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    /* width: calc(33.333% - 20px); */
+    display: flex;
+    flex-wrap: wrap;
+}
+.article img {
+    width: 100%;
+    border-radius: 10px;
+}
+.article p {
+    margin: 10px 0 0;
+    
+}
+.show-more {
+    text-align: right;
+    padding: 10px 20px;
+}
+.show-more a {
+    color: #0033cc;
+    text-decoration: none;
+}
+.show-more a:hover {
+    text-decoration: underline;
+}
+.profil{
+    text-align: center;
+    padding: 20px;
+    background-color: #0033cc;
+}
+.info{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(9, 202, 240);
+
+}
+.form{
+    background-color: rgb(9, 202, 240);
+    padding: 20px;
+}
+.sosmed{
+    background-color: rgb(126, 127, 133);
+    padding: 20px;
+}
+.container{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(9, 202, 240);
+}
